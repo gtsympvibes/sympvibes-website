@@ -67,8 +67,8 @@ export function AppWrapper({ children }: React.PropsWithChildren) {
                     <Burger opened={opened} onClick={toggle} hiddenFrom="sm" size="sm" />
                     <Group justify="space-between" style={{ flex: 1 }}>
                         <Anchor underline="never" href="/">
-                            <Text fw={600} size="lg" c="white" className={classes.titleText}>
-                                Sympathetic Vibrations
+                            <Text fw={700} size="xl" c="white" className={classes.titleText}>
+                                SV
                             </Text>
                         </Anchor>
                         <Group visibleFrom="sm">
