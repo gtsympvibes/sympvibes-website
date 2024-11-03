@@ -2,6 +2,11 @@ import { IconBrandFacebook, IconBrandInstagram, IconBrandYoutube, IconMail } fro
 
 export const pages = [
     {
+        href: '/tickets',
+        title: 'Tickets',
+        description: 'Purchase tickets for our upcoming concerts!',
+    },
+    {
         href: '/concerts',
         title: 'Concerts',
         description: 'Details about our semesterly concerts!',

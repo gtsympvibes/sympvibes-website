@@ -12,7 +12,7 @@ export default function HomePage() {
                     About Us!
                 </Title>
                 <br />
-                <Text ta="justify" size="lg">
+                <Text ta="justify" size="lg" p="sm">
                     {homePageText}
                 </Text>
                 <br />

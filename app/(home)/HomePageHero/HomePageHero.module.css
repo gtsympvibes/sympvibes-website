@@ -35,7 +35,9 @@
 .subText {
     margin-top: auto; /* Pushes the text towards the bottom */
     padding-bottom: 30px; /* Adjust this to fine-tune spacing from the bottom */
+    margin-left: 10px;
+    margin-right: 10px;
     color: white;
     font-weight: 700;
-    font-size: rem(20px);
+    font-size: rem(30px);
 }

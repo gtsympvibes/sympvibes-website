@@ -1,13 +1,13 @@
-import { Title, Text, Anchor } from "@mantine/core";
+import { Title, Text } from "@mantine/core";
 import classes from "./Welcome.module.css";
 
 export function Welcome({ pageTitle }: { pageTitle: string }) {
     return (
         <>
             <Title className={classes.title} ta="center" mt={100}>
-                This is{" "}
+                Ruh{" "}
                 <Text inherit variant="gradient" component="span" gradient={{ from: "blue", to: "gray" }}>
-                    SympVibes
+                    Roh
                 </Text>
             </Title>
             <Text c="dimmed" ta="center" size="lg" maw={580} mx="auto" mt="xl">
@@ -15,7 +15,7 @@ export function Welcome({ pageTitle }: { pageTitle: string }) {
                 <Text span c="black" fw={500}>
                     {pageTitle}
                 </Text>{" "}
-                page is currently under development.
+                page is currently under development. Check back soon for updates!
             </Text>
         </>
     );
