@@ -12,6 +12,11 @@ export const pages = [
         description: 'Details about our semesterly concerts!',
     },
     {
+        href: '/program',
+        title: "Program",
+        description: 'View the program for our Fall 2024 concerts!',
+    },
+    {
         href: '/auditions',
         title: 'Auditions',
         description: 'Information about the audition process to become a member of SympVibes!',
