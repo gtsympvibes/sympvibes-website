@@ -15,12 +15,14 @@ export default function PDFView({ filePath }: PDFViewProps) {
                     right: 0,
                     left: 0,
                     width: "100%",
+                    height: "calc(100% - 60px)", // Adjust to account for the top offset
                     border: "none",
                     margin: 0,
                     padding: 0,
-                    overflow: "hidden",
-                    height: "100%",
+                    overflow: "auto",
+                    WebkitOverflowScrolling: "touch", // Enable smooth touch scrolling for iOS
                 }}
+                scrolling="yes" // Ensure scrolling is enabled
             ></iframe>
         </>
     );
