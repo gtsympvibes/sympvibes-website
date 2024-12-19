@@ -1,4 +1,4 @@
-import { IconBrandFacebook, IconBrandInstagram, IconBrandYoutube, IconMail } from "@tabler/icons-react";
+import { IconBrandFacebook, IconBrandInstagram, IconBrandYoutube, IconMail, IconSpeakerphone } from "@tabler/icons-react";
 
 export const pages = [
     {
@@ -11,11 +11,11 @@ export const pages = [
         title: 'Concerts',
         description: 'Details about our semesterly concerts!',
     },
-    {
-        href: '/program',
-        title: "Program",
-        description: 'View the program for our Fall 2024 concerts!',
-    },
+    // {
+    //     href: '/program',
+    //     title: "Program",
+    //     description: 'View the program for our Fall 2024 concerts!',
+    // },
     {
         href: '/auditions',
         title: 'Auditions',
@@ -66,3 +66,12 @@ const auditionHomePageText3 = "Lastly, one thing that we look for throughout the
 const auditionHomePageText4 = "We look forward to seeing you at auditions! For more information, click the button below!";
 
 export const auditionHomePageText = [auditionHomePageText1, auditionHomePageText2, auditionHomePageText3, auditionHomePageText4];
+
+export const currentBannerNotification = {
+    title: "🎤 Auditions Open Now!",
+    message: "Join our group and showcase your talent!",
+    link: "https://example.com/audition-form",
+    linkText: "Sign up here!",
+    color: "gray",
+    icon: IconSpeakerphone,
+}

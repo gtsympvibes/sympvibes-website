@@ -1,8 +1,10 @@
 import "@mantine/core/styles.css";
+import "@mantine/notifications/styles.css";
 import React from "react";
 import { MantineProvider, ColorSchemeScript } from "@mantine/core";
 import { theme } from "../theme";
 import AppWrapper from "@/components/AppWrapper/AppWrapper";
+import { Notifications } from "@mantine/notifications";
 
 export const metadata = {
     title: "Mantine Next.js template",
@@ -22,6 +24,7 @@ export default function RootLayout({ children }: { children: any }) {
             </head>
             <body>
                 <MantineProvider theme={theme} forceColorScheme="light">
+                    <Notifications />
                     <AppWrapper>{children}</AppWrapper>
                 </MantineProvider>
             </body>

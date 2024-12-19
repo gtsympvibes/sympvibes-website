@@ -1,7 +1,7 @@
 "use client";
 import { Button, Center, Container, Text, Title } from "@mantine/core";
 import { auditionHomePageText, homePageText } from "@/utils/constants";
-import HomePageHero from "./HomePageHero/HomePageHero";
+import HomePageHero from "@/components/HomePageHero/HomePageHero";
 
 export default function HomePage() {
     return (
