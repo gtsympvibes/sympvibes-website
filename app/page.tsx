@@ -1,9 +1,9 @@
-"use client";
 import { Button, Center, Container, Text, Title } from "@mantine/core";
 import { auditionHomePageText, homePageText } from "@/utils/constants";
 import HomePageHero from "@/components/HomePageHero/HomePageHero";
+import Link from "next/link";
 
-export default function HomePage() {
+export default function Page() {
     return (
         <>
             <HomePageHero />
@@ -27,15 +27,11 @@ export default function HomePage() {
                 ))}
                 <br />
                 <Center>
-                    <Button
-                        variant="light"
-                        size="lg"
-                        onClick={() => {
-                            window.location.href = "/contact";
-                        }}
-                    >
-                        Get in Touch!
-                    </Button>
+                    <Link href="/contact" passHref>
+                        <Button variant="light" size="lg">
+                            Get in Touch!
+                        </Button>
+                    </Link>
                 </Center>
             </Container>
         </>
