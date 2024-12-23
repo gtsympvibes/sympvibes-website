@@ -1,6 +1,7 @@
 import { Container, Title, Text, Paper, Center, Flex, Card, Stack, Button } from "@mantine/core";
 import classes from "./page.module.css";
-import { auditionFAQs, auditionFormLink, auditionSteps } from "@/utils/constants";
+import { auditionFormLink } from "@/utils/constants";
+import { auditionSteps, auditionFAQs } from "@/utils/pageBlurbs";
 import AuditionFAQs from "@/app/auditions/AuditionFAQs/AuditionFAQs";
 import Link from "next/link";
 import { IconListCheck } from "@tabler/icons-react";

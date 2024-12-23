@@ -1,5 +1,5 @@
 import { Button, Center, Container, Text, Title } from "@mantine/core";
-import { auditionHomePageText, homePageText } from "@/utils/constants";
+import { auditionHomePageText, homePageText } from "@/utils/pageBlurbs";
 import HomePageHero from "@/components/HomePageHero/HomePageHero";
 import Link from "next/link";
 

@@ -1,6 +1,7 @@
 import MemberCard from "@/components/MemberCard/MemberCard";
 import MembersPageHero from "@/components/MembersPageHero/MembersPageHero";
-import { alumni, members } from "@/utils/constants";
+import { members } from "@/utils/members";
+import { alumni } from "@/utils/alumni";
 import { Container, Group, Stack, Text, Title } from "@mantine/core";
 
 export default function Page() {
