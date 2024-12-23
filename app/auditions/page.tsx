@@ -6,7 +6,7 @@ import AuditionFAQs from "@/app/auditions/AuditionFAQs/AuditionFAQs";
 import Link from "next/link";
 import { IconListCheck } from "@tabler/icons-react";
 
-export function AuditionCard({ title, description }: { title: string; description: string }) {
+function AuditionCard({ title, description }: { title: string; description: string }) {
     return (
         <Card shadow="sm" withBorder style={{ width: "300px", minWidth: "300px" }}>
             <Text c="blue" fw={700}>
