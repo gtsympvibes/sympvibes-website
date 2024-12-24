@@ -3,6 +3,12 @@ import { Flex, Card, Stack, Text, Container, Title } from "@mantine/core";
 import { Spotify } from "react-spotify-embed";
 import classes from "./page.module.css";
 import { musicBlurb } from "@/utils/pageBlurbs";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+    title: "Music | Sympathetic Vibrations",
+    description: "Learn more about the music that SympVibes has produced over the years! ",
+};
 
 interface Album {
     title: string;

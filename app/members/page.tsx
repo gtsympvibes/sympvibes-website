@@ -3,6 +3,12 @@ import MembersPageHero from "@/components/MembersPageHero/MembersPageHero";
 import { members } from "@/utils/members";
 import { alumni } from "@/utils/alumni";
 import { Container, Group, Stack, Text, Title } from "@mantine/core";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+    title: "Members | Sympathetic Vibrations",
+    description: "Meet the members and alumni of SympVibes!",
+};
 
 export default function Page() {
     return (

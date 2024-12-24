@@ -5,6 +5,12 @@ import { auditionSteps, auditionFAQs } from "@/utils/pageBlurbs";
 import AuditionFAQs from "@/app/auditions/AuditionFAQs/AuditionFAQs";
 import Link from "next/link";
 import { IconListCheck } from "@tabler/icons-react";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+    title: "Auditions | Sympathetic Vibrations",
+    description: "Information about auditions for SympVibes! Learn about the process, dates, and FAQs.",
+};
 
 function AuditionCard({ title, description }: { title: string; description: string }) {
     return (

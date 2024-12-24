@@ -5,10 +5,11 @@ import { MantineProvider, ColorSchemeScript } from "@mantine/core";
 import { theme } from "../theme";
 import AppWrapper from "@/components/AppWrapper/AppWrapper";
 import { Notifications } from "@mantine/notifications";
+import { Metadata } from "next";
 
-export const metadata = {
-    title: "Mantine Next.js template",
-    description: "I am using Mantine with Next.js!",
+export const metadata: Metadata = {
+    title: "Sympathetic Vibrations",
+    description: "The official website of SympVibes, the premier all-male a cappella group at Georgia Tech!",
 };
 
 export default function RootLayout({ children }: { children: any }) {

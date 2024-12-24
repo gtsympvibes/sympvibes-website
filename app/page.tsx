@@ -2,6 +2,12 @@ import { Button, Center, Container, Text, Title } from "@mantine/core";
 import { auditionHomePageText, homePageText } from "@/utils/pageBlurbs";
 import HomePageHero from "@/components/HomePageHero/HomePageHero";
 import Link from "next/link";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+    title: "Home | Sympathetic Vibrations",
+    description: "The home page for Sympathetic Vibrations, the premier all-male a cappella group at Georgia Tech!",
+};
 
 export default function Page() {
     return (
