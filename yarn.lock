@@ -5180,7 +5180,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"array.prototype.flatmap@npm:^1.3.2":
+"array.prototype.flatmap@npm:^1.3.2, array.prototype.flatmap@npm:^1.3.3":
   version: 1.3.3
   resolution: "array.prototype.flatmap@npm:1.3.3"
   dependencies:
@@ -6946,7 +6946,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"es-iterator-helpers@npm:^1.1.0":
+"es-iterator-helpers@npm:^1.2.1":
   version: 1.2.1
   resolution: "es-iterator-helpers@npm:1.2.1"
   dependencies:
@@ -7320,30 +7320,30 @@ __metadata:
   linkType: hard
 
 "eslint-plugin-react@npm:^7.34.0":
-  version: 7.37.2
-  resolution: "eslint-plugin-react@npm:7.37.2"
+  version: 7.37.3
+  resolution: "eslint-plugin-react@npm:7.37.3"
   dependencies:
     array-includes: "npm:^3.1.8"
     array.prototype.findlast: "npm:^1.2.5"
-    array.prototype.flatmap: "npm:^1.3.2"
+    array.prototype.flatmap: "npm:^1.3.3"
     array.prototype.tosorted: "npm:^1.1.4"
     doctrine: "npm:^2.1.0"
-    es-iterator-helpers: "npm:^1.1.0"
+    es-iterator-helpers: "npm:^1.2.1"
     estraverse: "npm:^5.3.0"
     hasown: "npm:^2.0.2"
     jsx-ast-utils: "npm:^2.4.1 || ^3.0.0"
     minimatch: "npm:^3.1.2"
     object.entries: "npm:^1.1.8"
     object.fromentries: "npm:^2.0.8"
-    object.values: "npm:^1.2.0"
+    object.values: "npm:^1.2.1"
     prop-types: "npm:^15.8.1"
     resolve: "npm:^2.0.0-next.5"
     semver: "npm:^6.3.1"
-    string.prototype.matchall: "npm:^4.0.11"
+    string.prototype.matchall: "npm:^4.0.12"
     string.prototype.repeat: "npm:^1.0.0"
   peerDependencies:
     eslint: ^3 || ^4 || ^5 || ^6 || ^7 || ^8 || ^9.7
-  checksum: 10c0/01c498f263c201698bf653973760f86a07fa0cdec56c044f3eaa5ddaae71c64326015dfa5fde76ca8c5386ffe789fc79932624b614e13b6a1ad789fee3f7c491
+  checksum: 10c0/e8b267ab928c63e651e35ba936e84098f4189fbaebbf3607341e6affedcfe39f2afba85fb3ef83ec322b32829b22d7433230eb6af0f692d262473c6a19441ba5
   languageName: node
   linkType: hard
 
@@ -7627,11 +7627,11 @@ __metadata:
   linkType: hard
 
 "fastq@npm:^1.6.0":
-  version: 1.17.1
-  resolution: "fastq@npm:1.17.1"
+  version: 1.18.0
+  resolution: "fastq@npm:1.18.0"
   dependencies:
     reusify: "npm:^1.0.4"
-  checksum: 10c0/1095f16cea45fb3beff558bb3afa74ca7a9250f5a670b65db7ed585f92b4b48381445cd328b3d87323da81e43232b5d5978a8201bde84e0cd514310f1ea6da34
+  checksum: 10c0/7be87ecc41762adbddf558d24182f50a4b1a3ef3ee807d33b7623da7aee5faecdcc94fce5aa13fe91df93e269f383232bbcdb2dc5338cd1826503d6063221f36
   languageName: node
   linkType: hard
 
@@ -9979,6 +9979,7 @@ __metadata:
     prettier: "npm:^3.2.5"
     react: "npm:18.2.0"
     react-dom: "npm:18.2.0"
+    react-spotify-embed: "npm:^2.0.4"
     storybook: "npm:^8.0.0"
     storybook-dark-mode: "npm:^3.0.3"
     stylelint: "npm:^16.2.1"
@@ -10569,7 +10570,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"object.values@npm:^1.1.6, object.values@npm:^1.2.0":
+"object.values@npm:^1.1.6, object.values@npm:^1.2.0, object.values@npm:^1.2.1":
   version: 1.2.1
   resolution: "object.values@npm:1.2.1"
   dependencies:
@@ -11402,7 +11403,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-dom@npm:^16.8.0 || ^17.0.0 || ^18.0.0":
+"react-dom@npm:^16.8.0 || ^17.0.0 || ^18.0.0, react-dom@npm:^18.2.0":
   version: 18.3.1
   resolution: "react-dom@npm:18.3.1"
   dependencies:
@@ -11506,6 +11507,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"react-spotify-embed@npm:^2.0.4":
+  version: 2.0.4
+  resolution: "react-spotify-embed@npm:2.0.4"
+  dependencies:
+    react: "npm:^18.2.0"
+    react-dom: "npm:^18.2.0"
+  checksum: 10c0/a7c602879368edf87ccbbb1f1f3c8832a8396364a962952d3ae62ea0f0b5ddf6105c4cfd7d471755658753a2b4855acf3748e551094e9f648a581ee209499e1e
+  languageName: node
+  linkType: hard
+
 "react-style-singleton@npm:^2.2.1, react-style-singleton@npm:^2.2.2":
   version: 2.2.3
   resolution: "react-style-singleton@npm:2.2.3"
@@ -11559,7 +11570,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react@npm:^16.8.0 || ^17.0.0 || ^18.0.0":
+"react@npm:^16.8.0 || ^17.0.0 || ^18.0.0, react@npm:^18.2.0":
   version: 18.3.1
   resolution: "react@npm:18.3.1"
   dependencies:
@@ -12542,7 +12553,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"string.prototype.matchall@npm:^4.0.11":
+"string.prototype.matchall@npm:^4.0.12":
   version: 4.0.12
   resolution: "string.prototype.matchall@npm:4.0.12"
   dependencies:

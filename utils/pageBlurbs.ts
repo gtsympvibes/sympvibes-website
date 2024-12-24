@@ -57,3 +57,5 @@ export const auditionFAQs = [
         answer: "Anything our group wants! We are proud of the fact that our music is arranged by our own members and alumni. We're always open to new ideas and genres, and you can peruse our website to learn more about our past repertoire and published recordings."
     }
 ]
+
+export const musicBlurb = "Our group has been working on music projects for a while now. Outside of our regular performances on the Georgia Tech campus and the Greater Atlanta area, we have also been working on recording and releasing music. Here are some of our albums, which can all be found on our Spotify as well:"

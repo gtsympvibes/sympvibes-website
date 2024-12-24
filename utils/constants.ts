@@ -1,4 +1,4 @@
-import { IconBrandFacebook, IconBrandInstagram, IconBrandYoutube, IconMail, IconSpeakerphone } from "@tabler/icons-react";
+import { IconBrandFacebook, IconBrandInstagram, IconBrandSpotify, IconBrandYoutube, IconMail, IconSpeakerphone } from "@tabler/icons-react";
 
 export const auditionFormLink = "https://example.com/audition-form";
 
@@ -75,5 +75,10 @@ export const footerLinks = [
         icon: IconMail,
         href: 'mailto:gtsympvibes@gmail.com',
         title: 'Email',
+    },
+    {
+        icon: IconBrandSpotify,
+        href: 'https://open.spotify.com/artist/4Rhcg68dphZbx9v8ZkY6pT?si=axF_GeXEQciKBF37psZW5w',
+        title: 'Spotify',
     }
 ]

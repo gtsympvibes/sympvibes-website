@@ -1,5 +1,5 @@
 {
-  "name": "mantine-next-template",
+  "name": "sympvibes-website",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -27,7 +27,8 @@
     "@tabler/icons-react": "^3.0.0",
     "next": "^14.2.20",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-spotify-embed": "^2.0.4"
   },
   "devDependencies": {
     "@babel/core": "^7.24.0",

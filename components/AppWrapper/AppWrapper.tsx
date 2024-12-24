@@ -148,7 +148,7 @@ export function AppWrapper({ children }: React.PropsWithChildren) {
             <div className={classes.footer}>
                 <Container className={classes.inner}>
                     <Text size="sm" c="dimmed" ta="center">
-                        Sympathetic Vibrations | Made with ♥ by Reetesh Sudhakar
+                        Sympathetic Vibrations | #BJBBD | Made with ♥ by Reetesh Sudhakar
                     </Text>
                     <Group gap={0} className={classes.links} justify="flex-end" wrap="nowrap">
                         {footerLinks.map((item) => (
