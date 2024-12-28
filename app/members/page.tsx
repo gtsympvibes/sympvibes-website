@@ -17,7 +17,7 @@ export default function Page() {
             <Container size="xl" p="sm" pt="xl">
                 <Group justify="center" align="center">
                     {members.map((member) => (
-                        <MemberCard {...member} />
+                        <MemberCard key={member.name} {...member} />
                     ))}
                 </Group>
             </Container>

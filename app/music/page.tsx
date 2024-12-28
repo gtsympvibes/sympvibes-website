@@ -18,7 +18,7 @@ interface Album {
 
 function AlbumContent({ title, year, link }: Album) {
     return (
-        <Card shadow="sm" withBorder style={{ width: "350px", minWidth: "350px" }}>
+        <Card shadow="sm" withBorder style={{ width: "325px", minWidth: "325px" }} radius={"md"}>
             <Stack align="center" gap="xs">
                 <Text size="xl" fw={700}>
                     {title}

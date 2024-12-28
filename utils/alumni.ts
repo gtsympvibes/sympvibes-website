@@ -1,3 +1,4 @@
+/** Alumni roster, to be updated each semester, used in the members page. */
 export const alumni = [
     {
         year: "2024",

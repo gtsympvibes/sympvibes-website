@@ -34,7 +34,7 @@ export default function Page() {
 
             {/* Paper for Auditions Dates */}
             <Center pb="xl">
-                <Paper withBorder radius="md" shadow="md" bg={"blue"} w="50%" p="sm">
+                <Paper withBorder radius="md" shadow="md" bg={"blue"} w="80%" p="sm">
                     <Center>
                         <Text ta="center" size="lg" c="white" fw={700}>
                             Auditions for Spring 2025 will be on January XYZ and ABC, at Skiles 354. More details below!
@@ -59,15 +59,11 @@ export default function Page() {
                     <AuditionCard key={step.title} title={step.title} description={step.description} />
                 ))}
             </Flex>
-            
+
             <br />
             <Center>
                 <Link href={auditionFormLink} target="_blank">
-                    <Button
-                        variant="light"
-                        size="lg"
-                        leftSection={<IconListCheck size={20} />}
-                    >
+                    <Button variant="light" size="lg" leftSection={<IconListCheck size={20} />}>
                         Sign up for Auditions Here!
                     </Button>
                 </Link>
@@ -76,13 +72,12 @@ export default function Page() {
             {/* Auditions FAQs */}
             <Stack gap="md">
                 <Title order={1} ta="center" mt="xl">
-                    <Text inherit variant="gradient" component="span" gradient={{ from: "blue", to: "gray" }}>
+                    <Text inherit span c="blue">
                         Frequently Asked Questions
                     </Text>
                 </Title>
                 <AuditionFAQs auditionFAQs={auditionFAQs} />
             </Stack>
-
         </Container>
     );
 }

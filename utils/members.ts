@@ -1,3 +1,4 @@
+/** Members roster, to be updated each semester. Used in the members page. */
 export const members = [
     {
         name: "Reetesh Sudhakar",

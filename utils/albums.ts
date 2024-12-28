@@ -1,3 +1,4 @@
+/** Spotify links for our albums, used in the Music page. */
 export const albums = [
     {
         title: "Premier",

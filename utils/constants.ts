@@ -1,5 +1,6 @@
 import { IconBrandFacebook, IconBrandInstagram, IconBrandSpotify, IconBrandYoutube, IconMail, IconSpeakerphone } from "@tabler/icons-react";
 
+// used in the banner notification and the auditions page
 export const auditionFormLink = "https://example.com/audition-form";
 
 {/* Banner Notification */}
