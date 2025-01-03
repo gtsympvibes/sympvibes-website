@@ -37,7 +37,8 @@ export default function Page() {
                 <Paper withBorder radius="md" shadow="md" bg={"blue"} w="80%" p="sm">
                     <Center>
                         <Text ta="center" size="lg" c="white" fw={700}>
-                            Auditions for Spring 2025 will be on January XYZ and ABC, at Skiles 354. More details below!
+                            Auditions for Spring 2025 will be on January 19th and 21st, in Skiles 354. More details
+                            below!
                         </Text>
                     </Center>
                 </Paper>

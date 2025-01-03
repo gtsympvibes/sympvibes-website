@@ -1,14 +1,14 @@
 import { IconBrandFacebook, IconBrandInstagram, IconBrandSpotify, IconBrandYoutube, IconMail, IconSpeakerphone } from "@tabler/icons-react";
 
 // used in the banner notification and the auditions page
-export const auditionFormLink = "https://example.com/audition-form";
+export const auditionFormLink = "https://docs.google.com/forms/d/e/1FAIpQLSd9nazrWF5PXDPLGGuCTs2lBWPNhDZU_R6nosz52Zl8rgUc4Q/viewform?usp=preview";
 
 {/* Banner Notification */}
 export const currentBannerNotification = {
     title: "🎤 Auditions Open Now!",
     message: "Join our group and showcase your talent!",
     link: auditionFormLink,
-    linkText: "Sign up here!",
+    linkText: "Sign up + details here!",
     color: "gray",
     icon: IconSpeakerphone,
 }
