@@ -1,9 +1,16 @@
-"use client";
 import { Button, Center, Container, Text, Title } from "@mantine/core";
-import { auditionHomePageText, homePageText } from "@/utils/constants";
-import HomePageHero from "./HomePageHero/HomePageHero";
+import { auditionHomePageText, homePageText } from "@/utils/pageBlurbs";
+import HomePageHero from "@/components/HomePageHero/HomePageHero";
+import Link from "next/link";
+import { Metadata } from "next";
+import { IconMail } from "@tabler/icons-react";
 
-export default function HomePage() {
+export const metadata: Metadata = {
+    title: "Home | Sympathetic Vibrations",
+    description: "The home page for Sympathetic Vibrations, the premier all-male a cappella group at Georgia Tech!",
+};
+
+export default function Page() {
     return (
         <>
             <HomePageHero />
@@ -27,15 +34,11 @@ export default function HomePage() {
                 ))}
                 <br />
                 <Center>
-                    <Button
-                        variant="light"
-                        size="lg"
-                        onClick={() => {
-                            window.location.href = "/contact";
-                        }}
-                    >
-                        Get in Touch!
-                    </Button>
+                    <Link href="/contact" passHref>
+                        <Button variant="light" size="lg" leftSection={<IconMail />}>
+                            Get in Touch!
+                        </Button>
+                    </Link>
                 </Center>
             </Container>
         </>

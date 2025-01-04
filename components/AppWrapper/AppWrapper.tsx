@@ -15,14 +15,25 @@ import {
     rem,
 } from "@mantine/core";
 import { useDisclosure } from "@mantine/hooks";
-import { footerLinks, pages } from "@/utils/constants";
+import { currentBannerNotification, footerLinks, pages } from "@/utils/constants";
 import classes from "./AppWrapper.module.css";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
+import { notifications } from "@mantine/notifications";
+import { IconSpeakerphone } from "@tabler/icons-react";
 
 interface NavButtonProps {
     href: string;
     title: string;
+}
+
+interface BannerNotificationProps {
+    title: string;
+    message: string;
+    link: string;
+    linkText: string;
+    color?: string;
+    Icon?: React.ElementType;
 }
 
 function NavButton({ href, title }: NavButtonProps) {
@@ -35,13 +46,45 @@ function NavButton({ href, title }: NavButtonProps) {
     );
 }
 
+function showBannerNotification({
+    title,
+    message,
+    link,
+    linkText,
+    color = "gray",
+    Icon = IconSpeakerphone,
+}: BannerNotificationProps) {
+    notifications.show({
+        title: <Text style={{ fontWeight: "bold", color: "black" }}>{title}</Text>,
+        message: (
+            <Text style={{ color: "black" }}>
+                {message}{" "}
+                <Anchor href={link} target="_blank" style={{ color: "blue" }}>
+                    {linkText}
+                </Anchor>
+            </Text>
+        ),
+        color: color,
+        icon: <Icon size={rem(20)} color={"white"} />,
+        withCloseButton: true,
+        autoClose: false,
+    });
+}
+
 export function AppWrapper({ children }: React.PropsWithChildren) {
     const [opened, { toggle }] = useDisclosure();
     const [isMounted, setIsMounted] = useState(false);
+    const [bannerNotificationShown, setBannerNotificationShown] = useState(false);
 
     useEffect(() => {
         setIsMounted(true);
     }, []);
+
+    useEffect(() => {
+        if (sessionStorage.getItem("bannerNotificationShown")) {
+            setBannerNotificationShown(true);
+        }
+    });
 
     if (!isMounted) {
         return (
@@ -49,6 +92,14 @@ export function AppWrapper({ children }: React.PropsWithChildren) {
                 <Loader color={"blue"} size="xl" type="dots" />
             </Center>
         );
+    }
+
+    // banner notification to promote auditions
+    if (!bannerNotificationShown) {
+        showBannerNotification(currentBannerNotification);
+
+        setBannerNotificationShown(true);
+        sessionStorage.setItem("bannerNotificationShown", "true");
     }
 
     return (
@@ -97,7 +148,7 @@ export function AppWrapper({ children }: React.PropsWithChildren) {
             <div className={classes.footer}>
                 <Container className={classes.inner}>
                     <Text size="sm" c="dimmed" ta="center">
-                        Sympathetic Vibrations | Made with ♥ by Reetesh Sudhakar
+                        Sympathetic Vibrations | #BJBBD | Made with ♥ by Reetesh Sudhakar
                     </Text>
                     <Group gap={0} className={classes.links} justify="flex-end" wrap="nowrap">
                         {footerLinks.map((item) => (
