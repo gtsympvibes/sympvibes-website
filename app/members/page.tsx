@@ -27,7 +27,7 @@ export default function Page() {
                 </Title>
                 <Stack justify="center" align="center">
                     {alumni.map((item) => (
-                        <Stack p="xs">
+                        <Stack p="xs" key={item.year}>
                             <Text ta="center" fw={700} size="xl">
                                 {item.year}
                             </Text>

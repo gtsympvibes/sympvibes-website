@@ -22,7 +22,7 @@ export default function MemberCard({ name, voicePart, perc, position, semJoined,
                 display: "flex",
                 flexDirection: "column",
                 alignItems: "center",
-                minHeight: "400px",
+                minHeight: "485px",
                 maxWidth: "450px",
                 width: "100%",
             }}

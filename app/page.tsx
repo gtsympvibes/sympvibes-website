@@ -3,6 +3,7 @@ import { auditionHomePageText, homePageText } from "@/utils/pageBlurbs";
 import HomePageHero from "@/components/HomePageHero/HomePageHero";
 import Link from "next/link";
 import { Metadata } from "next";
+import { IconMail } from "@tabler/icons-react";
 
 export const metadata: Metadata = {
     title: "Home | Sympathetic Vibrations",
@@ -34,7 +35,7 @@ export default function Page() {
                 <br />
                 <Center>
                     <Link href="/contact" passHref>
-                        <Button variant="light" size="lg">
+                        <Button variant="light" size="lg" leftSection={<IconMail />}>
                             Get in Touch!
                         </Button>
                     </Link>
