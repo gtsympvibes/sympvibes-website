@@ -40,4 +40,4 @@ export const albums = [
         year: "2005",
         link: "https://open.spotify.com/album/1AGBHU1AZXl8zRahruXpEE?si=GWxg1HH-TnyzTDvYPPywFQ",
     },
-]
+];
