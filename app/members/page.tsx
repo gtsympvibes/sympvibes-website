@@ -1,5 +1,5 @@
-import MemberCard from "@/components/MemberCard/MemberCard";
-import MembersPageHero from "@/components/MembersPageHero/MembersPageHero";
+import MemberCard from "@/app/members/MemberCard/MemberCard";
+import MembersPageHero from "@/app/members/MembersPageHero/MembersPageHero";
 import { members } from "@/utils/members";
 import { alumni } from "@/utils/alumni";
 import { Container, Group, Stack, Text, Title } from "@mantine/core";

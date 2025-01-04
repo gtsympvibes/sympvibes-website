@@ -1,6 +1,6 @@
 import { Button, Center, Container, Text, Title } from "@mantine/core";
 import { auditionHomePageText, homePageText } from "@/utils/pageBlurbs";
-import HomePageHero from "@/components/HomePageHero/HomePageHero";
+import HomePageHero from "@/app/(home)/HomePageHero/HomePageHero";
 import Link from "next/link";
 import { Metadata } from "next";
 import { IconMail } from "@tabler/icons-react";
