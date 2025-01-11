@@ -79,7 +79,7 @@ export const members = [
         position: undefined,
         semJoined: "Fall '22",
         imagePath: "/members/will.jpg",
-        bio: "Bio coming soon!.",
+        bio: "Will, better known as Goldsmith or Goldy, is a third year Industrial Engineering major from Decatur, GA. You can find Will roaming the streets of Atlanta, murmuring under his breath or singing at the top of his lungs. But we promise he's just a chill guy.",
     },
     {
         name: "Sam Kim",
@@ -87,7 +87,7 @@ export const members = [
         perc: true,
         position: undefined,
         semJoined: "Spring '24",
-        imagePath: "/members/will.jpg",
+        imagePath: "/members/sam.jpg",
         bio: "Bio coming soon!.",
     },
     {
