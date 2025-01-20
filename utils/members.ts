@@ -15,8 +15,8 @@ export const members = [
         perc: false,
         position: "Business Manager",
         semJoined: "Fall '22",
-        imagePath: "/members/wesley.jpg",
-        bio: "Bio coming soon!.",
+        imagePath: "/members/wesley.png",
+        bio: "Wesley is a 3rd year biology and ALIS double major from Canton, GA. Outside of SV, Wesley enjoys playing with frogs in the Nie Lab, listening to reggaeton & Dutch dance pop, and battling the line at Chipotle (he lost the battle).",
     },
     {
         name: "Daryn Roberts",
@@ -25,15 +25,6 @@ export const members = [
         position: "Music Director",
         semJoined: "Fall '22",
         imagePath: "/members/daryn.jpg",
-        bio: "Bio coming soon!.",
-    },
-    {
-        name: "Josh Robinson",
-        voicePart: "Tenor",
-        perc: false,
-        position: undefined,
-        semJoined: "Fall '22",
-        imagePath: "/members/jrob.jpg",
         bio: "Bio coming soon!.",
     },
     {
@@ -70,7 +61,7 @@ export const members = [
         position: undefined,
         semJoined: "Fall '22",
         imagePath: "/members/ose.jpg",
-        bio: "Bio coming soon!.",
+        bio: "Nicholas is a 4th year double major in Solid Earth & Planetary Science and Applied Language & Intercultural Studies. He also writes music, sings and produces and has been doing so since the 8th grade.",
     },
     {
         name: "Will Goldsmith",
