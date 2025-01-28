@@ -42,8 +42,8 @@ export const members = [
         perc: false,
         position: undefined,
         semJoined: "Fall '23",
-        imagePath: "/members/facundo.jpg",
-        bio: "Bio coming soon!.",
+        imagePath: "/members/fakundao.png",
+        bio: "My name is actually Fakundao.",
     },
     {
         name: "Seth Kinoshita",
