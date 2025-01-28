@@ -24,8 +24,8 @@ export const members = [
         perc: true,
         position: "Music Director",
         semJoined: "Fall '22",
-        imagePath: "/members/daryn.jpg",
-        bio: "Bio coming soon!.",
+        imagePath: "/members/daryn.jpeg",
+        bio: "What’s up team. My name is Daryn Roberts and I’m a 4th year Biomedical engineering major. My big dark secret is that I’m actually a huge nerd and I’m obsessed with Dungeons and Dragons.",
     },
     {
         name: "Evan Smallwood",
@@ -96,8 +96,8 @@ export const members = [
         perc: false,
         position: undefined,
         semJoined: "Fall '24",
-        imagePath: "/members/donovan.jpg",
-        bio: "Bio coming soon!.",
+        imagePath: "/members/donovan.jpeg",
+        bio: "Donovan is a 4th year Math undergrad at GT. He enjoys running, reading, and playing poker in his free time. Donovan is a pilot select for the US Air Force, and he will go off to training next year ✈️.",
     },
     {
         name: "Carter Strickland",
