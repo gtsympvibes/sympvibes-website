@@ -15,10 +15,10 @@ export const auditionFormLink =
     /* Banner Notification */
 }
 export const currentBannerNotification = {
-    title: "🎤 Auditions Open Now!",
-    message: "Join our group and showcase your talent!",
-    link: auditionFormLink,
-    linkText: "Sign up + details here!",
+    title: "🎤 Concerts coming soon!",
+    message: "Our end-of-semester concerts are coming in mid-April.",
+    link: "/concerts",
+    linkText: "Stay tuned for more details!",
     color: "gray",
     icon: IconSpeakerphone,
 };
