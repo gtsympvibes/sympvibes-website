@@ -59,7 +59,7 @@ function showBannerNotification({
         message: (
             <Text style={{ color: "black" }}>
                 {message}{" "}
-                <Anchor href={link} target="_blank" style={{ color: "blue" }}>
+                <Anchor href={link} style={{ color: "blue" }}>
                     {linkText}
                 </Anchor>
             </Text>

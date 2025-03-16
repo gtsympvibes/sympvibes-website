@@ -17,8 +17,8 @@ export const auditionFormLink =
 export const currentBannerNotification = {
     title: "🎤 Concerts coming soon!",
     message: "Our end-of-semester concerts are coming in mid-April.",
-    link: "/concerts",
-    linkText: "Stay tuned for more details!",
+    link: "/tickets",
+    linkText: "Click here to buy tickets!",
     color: "gray",
     icon: IconSpeakerphone,
 };

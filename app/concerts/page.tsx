@@ -23,7 +23,23 @@ export default function HomePage() {
                 <Paper withBorder radius="md" shadow="md" bg={"white"} w="75%" p="sm">
                     <Center>
                         <Text ta="center" size="lg" c="black" fw={400}>
-                            Our Spring 2025 concert dates will be announced soon! Stay tuned for more information.
+                            Our Spring 2025 concert dates are here! Our first concert is on Friday, April 18th at{" "}
+                            <Text span inherit fw={700} c="black">
+                                7:00 PM
+                            </Text>{" "}
+                            at the{" "}
+                            <Text span inherit fw={700} c="black">
+                                LeCraw Auditorium (Scheller 100)
+                            </Text>
+                            . Our second concert is on Saturday, April 19th at{" "}
+                            <Text span inherit fw={700} c="black">
+                                7:00 PM
+                            </Text>{" "}
+                            at{" "}
+                            <Text span inherit fw={700} c="black">
+                                East Architecture 123
+                            </Text>
+                            . We hope to see you there!
                         </Text>
                     </Center>
                 </Paper>
