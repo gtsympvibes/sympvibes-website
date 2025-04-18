@@ -42,11 +42,11 @@ export const pages = [
         title: "Concerts",
         description: "Details about our semesterly concerts!",
     },
-    // {
-    //     href: '/program',
-    //     title: "Program",
-    //     description: 'View the program for our Fall 2024 concerts!',
-    // },
+    {
+        href: '/program',
+        title: "Program",
+        description: 'View the program for our Fall 2024 concerts!',
+    },
     {
         href: "/auditions",
         title: "Auditions",
