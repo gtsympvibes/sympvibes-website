@@ -20,7 +20,8 @@ import classes from "./AppWrapper.module.css";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import { notifications } from "@mantine/notifications";
-import { IconSpeakerphone } from "@tabler/icons-react";
+import { IconBrandInstagram, IconSpeakerphone } from "@tabler/icons-react";
+import Link from "next/link";
 
 interface NavButtonProps {
     href: string;
@@ -107,25 +108,37 @@ export function AppWrapper({ children }: React.PropsWithChildren) {
             header={{ height: 60 }}
             navbar={{
                 width: 300,
-                breakpoint: "sm",
+                breakpoint: "lg",
                 collapsed: { desktop: true, mobile: !opened },
             }}
             withBorder={false}
         >
             {/* Header */}
             <AppShell.Header>
-                <Group h="100%" px="md" className={classes.header}>
-                    <Burger opened={opened} onClick={toggle} hiddenFrom="sm" size="sm" />
+                <Group h="100%" px="md" className={classes.header} align="center">
+                    <Burger opened={opened} onClick={toggle} hiddenFrom="lg" size="sm" />
                     <Group justify="space-between" style={{ flex: 1 }}>
                         <Anchor underline="never" href="/">
                             <Text fw={700} size="xl" c="white" className={classes.titleText}>
                                 SV
                             </Text>
                         </Anchor>
-                        <Group visibleFrom="sm">
-                            {pages.map((page) => (
-                                <NavButton key={page.title} href={page.href} title={page.title} />
-                            ))}
+                        <Group align="center">
+                            <Group visibleFrom="lg" align="center">
+                                {pages.map((page) => (
+                                    <NavButton key={page.title} href={page.href} title={page.title} />
+                                ))}
+                            </Group>
+                            <Anchor
+                                href="https://www.instagram.com/sympvibes/"
+                                target="_blank"
+                                underline="never"
+                                aria-label="Instagram"
+                            >
+                                <Group className={classes.navbarButton}>
+                                    <IconBrandInstagram size={30} stroke={2} color="#2e548a" />
+                                </Group>
+                            </Anchor>
                         </Group>
                     </Group>
                 </Group>

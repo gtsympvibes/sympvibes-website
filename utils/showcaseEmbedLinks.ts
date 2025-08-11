@@ -3,6 +3,8 @@
  * of the iframe tag */
 
 export const showcaseEmbedLinks = [
+    "https://www.youtube.com/embed/ckCPwsHG0yg?si=Y8gBb4GXn4t6kWAi", // I Remember Everything, Spring 2025
+    "https://www.youtube.com/embed/NGMgwQ3pLKc?si=hC1wCLFM7DSgtr2m", // LGIS, Spring 2025
     "https://www.youtube.com/embed/_XC6P2ztsa4?si=t7aiBChRo-ugUX1S", // Fall 2023
     "https://www.youtube-nocookie.com/embed/O5q2jjM2-3Q?si=UL8G8rt9L8vjkded", // Fall 2019
     "https://www.youtube.com/embed/qq1U2pnEWxU?si=Q_wtaFX9m_fV8kID", // BTHD - Quarantine Vibes

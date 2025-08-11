@@ -15,10 +15,10 @@ export const auditionFormLink =
     /* Banner Notification */
 }
 export const currentBannerNotification = {
-    title: "🎤 Concerts coming soon!",
-    message: "Our end-of-semester concerts are coming in mid-April.",
-    link: "/tickets",
-    linkText: "Click here to buy tickets!",
+    title: "🎤 Auditions are coming soon!",
+    message: "Come check us out at the Week of Welcome to learn more!",
+    link: "https://builder.guidebook.com/g/#/guides/weekofwelcome2025/schedule/728645/sessions/31562157",
+    linkText: "Click here to learn more!",
     color: "gray",
     icon: IconSpeakerphone,
 };
@@ -42,11 +42,11 @@ export const pages = [
         title: "Concerts",
         description: "Details about our semesterly concerts!",
     },
-    {
-        href: '/program',
-        title: "Program",
-        description: 'View the program for our Fall 2024 concerts!',
-    },
+    // {
+    //     href: '/program',
+    //     title: "Program",
+    //     description: 'View the program for our Fall 2024 concerts!',
+    // },
     {
         href: "/auditions",
         title: "Auditions",

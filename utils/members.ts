@@ -1,15 +1,6 @@
 /** Members roster, to be updated each semester. Used in the members page. */
 export const members = [
     {
-        name: "Reetesh Sudhakar",
-        voicePart: "Tenor",
-        perc: true,
-        position: "Webmaster",
-        semJoined: "Spring '23",
-        imagePath: "/members/ree.jpg",
-        bio: "Ree is a 4th year Computer Science student from Portland, OR. He's been involved in music his entire life, with Indian music & percussion, choirs, and a cappella groups. He would love it if you showed him a picture of your dog. He loves dogs.",
-    },
-    {
         name: "Wesley Lanter",
         voicePart: "Bass",
         perc: false,
@@ -26,15 +17,6 @@ export const members = [
         semJoined: "Fall '22",
         imagePath: "/members/daryn.jpeg",
         bio: "What’s up team. My name is Daryn Roberts and I’m a 4th year Biomedical engineering major. My big dark secret is that I’m actually a huge nerd and I’m obsessed with Dungeons and Dragons.",
-    },
-    {
-        name: "Evan Smallwood",
-        voicePart: "Tenor",
-        perc: false,
-        position: undefined,
-        semJoined: "Fall '22",
-        imagePath: "/members/evan.jpg",
-        bio: "Bio coming soon!.",
     },
     {
         name: "Facundo Pagani",
@@ -89,15 +71,6 @@ export const members = [
         semJoined: "Fall '24",
         imagePath: "/members/ben.jpeg",
         bio: "Ben is a fifth year aerospace engineering student from Athens, GA, though he'd rather be called a first-year master’s student. He likes lifting, computers, and anything with an engine. Feel free to distract him from his grad program (please don't)!",
-    },
-    {
-        name: "Donovan Sheppard",
-        voicePart: "Baritone",
-        perc: false,
-        position: undefined,
-        semJoined: "Fall '24",
-        imagePath: "/members/donovan.jpeg",
-        bio: "Donovan is a 4th year Math undergrad at GT. He enjoys running, reading, and playing poker in his free time. Donovan is a pilot select for the US Air Force, and he will go off to training next year ✈️.",
     },
     {
         name: "Carter Strickland",

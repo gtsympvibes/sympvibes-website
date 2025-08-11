@@ -1,6 +1,10 @@
 /** Alumni roster, to be updated each semester, used in the members page. */
 export const alumni = [
     {
+        year: "2025",
+        names: "Reetesh Sudhakar, Donovan Sheppard, Evan Smallwood",
+    },
+    {
         year: "2024",
         names: "Matthew Kaminsky, Joshua Lerner, Keshav Jagannath",
     },

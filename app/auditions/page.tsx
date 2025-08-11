@@ -37,7 +37,7 @@ export default function Page() {
                 <Paper withBorder radius="md" shadow="md" bg={"blue"} w="80%" p="sm">
                     <Center>
                         <Text ta="center" size="lg" c="white" fw={700}>
-                            We are not currently holding auditions. Please check back later for updates!
+                            Auditions for the Fall 2025 semester are coming soon. Please check back later for updates!
                         </Text>
                     </Center>
                 </Paper>
@@ -61,13 +61,13 @@ export default function Page() {
             </Flex>
 
             <br />
-            <Center>
+            {/* <Center>
                 <Link href={auditionFormLink} target="_blank">
                     <Button variant="light" size="lg" leftSection={<IconListCheck size={20} />}>
                         Sign up for Auditions Here!
                     </Button>
                 </Link>
-            </Center>
+            </Center> */}
 
             {/* Auditions FAQs */}
             <Stack gap="md">
