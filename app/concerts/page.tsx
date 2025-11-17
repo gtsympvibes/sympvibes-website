@@ -23,17 +23,17 @@ export default function HomePage() {
                 <Paper withBorder radius="md" shadow="md" bg={"white"} w="75%" p="sm">
                     <Center>
                         <Text ta="center" size="lg" c="black" fw={400}>
-                            Our Spring 2025 concert dates are here! Our first concert is on Friday, April 18th at{" "}
+                            Our Fall 2025 concert dates are here! Our first concert is on Friday, November 21st at{" "}
                             <Text span inherit fw={700} c="black">
                                 7:00 PM
                             </Text>{" "}
-                            at the{" "}
+                            at{" "}
                             <Text span inherit fw={700} c="black">
-                                LeCraw Auditorium (Scheller 100)
+                                East Architecture 123
                             </Text>
-                            . Our second concert is on Saturday, April 19th at{" "}
+                            . Our second concert is on Saturday, November 22nd at{" "}
                             <Text span inherit fw={700} c="black">
-                                7:00 PM
+                                12:00 PM
                             </Text>{" "}
                             at{" "}
                             <Text span inherit fw={700} c="black">

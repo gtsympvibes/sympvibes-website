@@ -37,7 +37,7 @@ export default function Page() {
                 <Paper withBorder radius="md" shadow="md" bg={"blue"} w="80%" p="sm">
                     <Center>
                         <Text ta="center" size="lg" c="white" fw={700}>
-                            Auditions for the Fall 2025 semester are coming soon. Please check back later for updates!
+                            Auditions for the Spring 2026 semester are coming soon. Please check back later for updates!
                         </Text>
                     </Center>
                 </Paper>
