@@ -72,4 +72,22 @@ export const members = [
         imagePath: "/members/carter.jpeg",
         bio: "Howdy! Carter is pursuing a Bachelors in Mechanical Engineering that he can’t wait to bring back to his hometown, Hortense, GA! He is all about meeting new folks, praising the Lord, and throwing down, so hit him up if you’re on campus (or not)!",
     },
+    {
+        name: "Sean Chen",
+        voicePart: "Tenor",
+        perc: false,
+        position: undefined,
+        semJoined: "Fall '25",
+        imagePath: "/members/sean.jpg",
+        bio: "Sean Chen is a 1st year Compute Engineering major from California. When he is not busy singing with the group, he spends his time with designing chips with the Silicon Jackets like a true Taiwanese-American.",
+    },
+    {
+        name: "Carter Daniels",
+        voicePart: "Bass",
+        perc: false,
+        position: undefined,
+        semJoined: "Fall '25",
+        imagePath: "/members/carter2.png",
+        bio: "Carter is a 1st year transfer student from Oglethorpe University. Beyond having the ability to sing some extremely low notes, he spends his time outside of the group commentating for get the Georgia Tech hockey team.",
+    },
 ];
