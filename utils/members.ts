@@ -78,7 +78,7 @@ export const members = [
         perc: false,
         position: undefined,
         semJoined: "Fall '25",
-        imagePath: "/members/sean.jpg",
+        imagePath: "/members/Sean.jpg",
         bio: "Sean Chen is a 1st year Compute Engineering major from California. When he is not busy singing with the group, he spends his time with designing chips with the Silicon Jackets like a true Taiwanese-American.",
     },
     {
@@ -87,7 +87,7 @@ export const members = [
         perc: false,
         position: undefined,
         semJoined: "Fall '25",
-        imagePath: "/members/carter2.png",
+        imagePath: "/members/Carter2.png",
         bio: "Carter is a 1st year transfer student from Oglethorpe University. Beyond having the ability to sing some extremely low notes, he spends his time outside of the group commentating for get the Georgia Tech hockey team.",
     },
 ];
