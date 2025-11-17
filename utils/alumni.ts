@@ -2,7 +2,7 @@
 export const alumni = [
     {
         year: "2025",
-        names: "Reetesh Sudhakar, Donovan Sheppard, Evan Smallwood",
+        names: "Reetesh Sudhakar, Donovan Sheppard, Evan Smallwood, Daryn Roberts",
     },
     {
         year: "2024",
